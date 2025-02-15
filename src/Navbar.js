@@ -2,7 +2,7 @@ import logo from '../src/Images/logo.png';
 
 function Navbar(){
     return(
-    <nav class="flex items-center justify-between flex-wrap bg-black p-6">
+    <nav class="flex items-center justify-between flex-wrap bg-neutral-900 p-6">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
         <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54"> <image href={logo}  height="54" width="54" /></svg>
         <span class="font-semibold text-xl tracking-tight">After Motion Media</span>
